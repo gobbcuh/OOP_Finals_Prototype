@@ -66,6 +66,12 @@ body {
   cursor: pointer;
 }
 
+.reserve-button:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.3s ease;
+}
+
 /* Tagline Styling */
 .tagline-section {
   display: flex;
@@ -122,8 +128,9 @@ body {
 }
 
 .footer-gallery img:hover {
-  transform: scale(1.05);
-  transition: transform 0.3s ease;
+  transform: scale(1.2);
+  transition: transform 0.1s ease;
+  z-index: 2;
 }
 
 .social-footer {
@@ -146,5 +153,5 @@ body {
 }
 
 .social-icons a:hover {
-  color: #00ccff;
+  color: #ffcaab;
 }
