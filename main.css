@@ -121,6 +121,11 @@ body {
   border-radius: 10px;
 }
 
+.footer-gallery img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
 .social-footer {
   background-color: black;
   padding: 15px 0;
