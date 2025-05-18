@@ -6,7 +6,7 @@
 
   <groupId>main</groupId>
   <artifactId>main</artifactId>
-  <version>1.4</version>
+  <version>1.8</version>
   <packaging>war</packaging>
 
   <name>main Maven Webapp</name>
