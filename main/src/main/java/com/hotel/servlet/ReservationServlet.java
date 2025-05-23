@@ -9,7 +9,7 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 
-@WebServlet("/reserve")
+@WebServlet("/main/reserve")
 public class ReservationServlet extends HttpServlet {
     private List<Room> rooms = new ArrayList<>();
 
