@@ -1,0 +1,157 @@
+/* Reset & Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden; /* kill the horizontal scroll */
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-wrapper {
+  flex: 1;
+  padding: 40px 0; /* was causing horizontal overflow */
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Top Bar Layout */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px 40px;
+}
+
+/* Logo Text */
+.logo-text {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 23px;
+}
+
+.logo {
+  height: 20px; /* match the text height */
+  width: auto;
+  margin-right: 1px;
+}
+
+.cloud {
+  font-weight: 400;
+}
+
+.chaser {
+  font-weight: 700;
+}
+
+/* Reserve Now Button */
+.reserve-button {
+  border: 1px solid black;
+  border-radius: 999px;
+  padding: 6px 18px;
+  font-size: 20px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.reserve-button:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+/* Tagline Styling */
+.tagline-section {
+  display: flex;
+  justify-content: center;
+  margin: -50px auto 0 auto;
+}
+
+.tagline {
+  font-size: 75px;
+  font-weight: 400;
+  line-height: 0.95;
+  text-align: left;
+  margin: 0;
+  margin-right: 7px;
+}
+
+.within-reach {
+  display: inline-block;
+}
+
+.reach {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.clouds-with-arrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.arrow {
+  font-size: 100px;
+  line-height: 0.1;
+  transform: translateY(1px);
+  margin-bottom: 25px;
+  font-weight: 20;
+  font-family: Arial, sans-serif;
+}
+
+/* Gallery */
+.footer-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 13px;
+  margin-top: 60px;
+}
+
+.footer-gallery img {
+  width: 240px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.footer-gallery img:hover {
+  transform: scale(1.2);
+  transition: transform 0.1s ease;
+  z-index: 2;
+}
+
+.social-footer {
+  background-color: black;
+  padding: 15px 0;
+  text-align: center;
+  width: 100%; /* not 100vw */
+  margin: 0;
+  margin-top: 50px;
+  overflow-x: hidden;
+}
+
+.social-icons a {
+  display: inline-block;
+  font-size: 25px;
+  color: white;
+  margin: 0 10px; /* keep icon spacing */
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ffcaab;
+}
