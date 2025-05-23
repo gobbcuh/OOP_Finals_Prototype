@@ -50,18 +50,6 @@ body, html {
     margin-right: 1px;
 }
 
-.reg-btn {
-  margin-top: 20px;
-  padding: 10px 25px;
-  border: 2px solid black;
-  background: transparent;
-  font-weight: bold;
-  border-radius: 25px;
-  cursor: pointer;
-  width: 100%;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
-}
-
 /* RIGHT SIDE */
 .form-container {
   width: 40%;
