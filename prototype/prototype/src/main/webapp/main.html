@@ -1,47 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CloudChaser</title>
-  <!-- Google Font: Poppins -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="reg.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CloudChaser</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="main.css" />
 </head>
 <body>
-  <div class="container">
-    <!-- Left side with image and logo -->
-    <div class="photo-container">
-      <img src="C:\Users\User\OneDrive\Desktop\oak\OOP_Finals\main elements\half-bg1.jpg" alt="half background" />
-      <div class="logo">
-        <img src="C:\Users\User\OneDrive\Desktop\oak\OOP_Finals\main elements\cloud chaser logo.png" alt="CloudChaser logo" />
-        <h1>
-          Cloud<span class="bold">Chaser</span>
-        </h1>
-      </div>
+    <div class="main-wrapper">
+        <header class="top-bar">
+            <div class="logo-text">
+                <img class="logo" src="images/cloud_chaser_logo.png" alt="logo" />
+                <span class="cloud">Cloud</span><span class="chaser">Chaser</span>
+            </div>
+            <div class="reserve-button">
+                <p>Reserve Now</p>
+            </div>
+        </header>
+        <main class="tagline-section">
+            <h1 class="tagline">
+                <span class="clouds-with-arrow">
+                    Clouds<span class="arrow">→</span>
+                </span>
+                <br />
+                <span class="within-reach">within <span class="reach">reach</span></span>
+            </h1>
+        </main>
+        <footer class="footer-gallery">
+            <img src="images/1.jpg" alt="sample-pic">
+            <img src="images/2.jpg" alt="sample-pic2">
+            <img src="images/3.jpg" alt="sample-pic3">
+            <img src="images/4.jpg" alt="sample-pic4">
+        </footer>
     </div>
-    <!-- Right side with registration form -->
-    <div class="form-container">
-      <h2>Hello, World!</h2>
-      <form action="/register" method="POST">
-        <div class="input-group">
-          <span>👤</span>
-          <input type="text" name="name" placeholder="Name" required />
+    <footer class="social-footer">
+        <div class="social-icons">
+            <a href="https://www.facebook.com/jasmin.lorino/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://x.com/gobbcuh" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/j.badobee?igsh=MW1oOW5tcGpxYWZ6cQ==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/jasmin-lorino-314916313/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
         </div>
-        <div class="input-group">
-          <span>📧</span>
-          <input type="email" name="email" placeholder="E-mail" required />
-        </div>
-        <div class="input-group">
-          <span>🔒</span>
-          <input type="password" name="password" placeholder="Password" required />
-        </div>
-        <button type="submit" class="submit-btn">Create Account</button>
-        <p class="login-link">Already have an account? <a href="#">Sign in</a></p>
-      </form>
-    </div>
-  </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/555b904bd6.js" crossorigin="anonymous"></script>
 </body>
 </html>
