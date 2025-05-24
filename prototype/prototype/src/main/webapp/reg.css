@@ -34,3 +34,13 @@ button {
   border-radius: 6px;
   cursor: pointer;
 }
+
+.error-message {
+  color: #ff3333;
+  background: #ffeeee;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 0.9rem;
+}
