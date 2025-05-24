@@ -56,20 +56,23 @@ body {
   font-weight: 700;
 }
 
-/* Reserve Now Button */
 .reserve-button {
-  border: 1px solid black;
-  border-radius: 999px;
-  padding: 6px 18px;
-  font-size: 20px;
-  margin-top: 5px;
-  cursor: pointer;
+    border: 1px solid black;
+    border-radius: 999px;
+    padding: 6px 18px;
+    font-size: 20px;
+    margin-top: 5px;
+    cursor: pointer;
+    /* Add these new properties */
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
 }
 
 .reserve-button:hover {
-  background-color: black;
-  color: white;
-  transition: all 0.3s ease;
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease;
 }
 
 /* Tagline Styling */
