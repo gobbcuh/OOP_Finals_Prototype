@@ -57,21 +57,24 @@ body {
 }
 
 .reserve-button {
+    /* Button styling */
     border: 1px solid black;
     border-radius: 999px;
     padding: 6px 18px;
     font-size: 20px;
     margin-top: 5px;
     cursor: pointer;
-    /* Add these new properties */
     display: inline-block;
-    text-decoration: none;
-    color: inherit;
+    
+    /* Remove all link styling */
+    text-decoration: none !important;
+    color: inherit !important;
+    outline: none !important;
 }
 
 .reserve-button:hover {
     background-color: black;
-    color: white;
+    color: white !important;
     transition: all 0.3s ease;
 }
 
